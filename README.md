@@ -1,7 +1,7 @@
 # AST
 [_AST: An Attention-guided Segment Transformer for Drone-based Cross-view Geo-localization_](https://www.github.com/riveryale/AST) (under reviewing)
 
-This repository provides the dataset link and the code for our paper. Thank you for your kind attention.
+This repository provides the pretrained model link and the source code for our paper. Thank you for your kind attention.
 
 ## Requirements
 - Python 3.7
@@ -21,9 +21,9 @@ python train.py -c config.yaml --evaluate
 You can learn more about configurations in ``config.yaml`` (default configurations) and ``train.py`` (configuration introduction)
 
 ## Trained Models
-You could download the trained model at [GoogleDrive](https://www.github.com/riveryale/AST). After download, please modify the ``checkpoint`` in ``config.yaml``. Then you can evaluate the trained model by adding ``--evaluate``
-
+You could download the trained model at [GoogleDrive](https://drive.google.com/file/d/10yKlOG1ZnZIwRIqLDTrpbpp_dH5BVMRz/view?usp=sharing). After download, please modify the ``checkpoint`` in ``config.yaml``. Then you can evaluate the trained model by adding ``--evaluate``
+<!-- 
 ## Citation
 ```
 Not yet
-```
+``` -->

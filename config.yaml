@@ -1,5 +1,5 @@
 seed: 42
-root: /home/user/University-Release
+root: /home/user/AST/University-Release
 evaluate: false
 
 drone_h: 256
@@ -12,12 +12,12 @@ color_jitter: false
 DA: false
 num_worker: 4
 
-checkpoint: null
+checkpoint: null # /home/user/AST/AST_trained.tar
 only_state: true
 checkpoint_freq: 0
 print_freq: 50
 
-save_path: /home/user/outputs
+save_path: /home/user/AST/outputs
 save_log: true
 
 share_weight: true
