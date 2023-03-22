@@ -1,0 +1,9 @@
+matplotlib==3.5.1
+numpy==1.19.2
+Pillow==9.4.0
+pytorch_metric_learning==1.6.3
+PyYAML==6.0
+timm==0.6.11
+torch==1.1.0
+torchvision==0.10.0a0
+tqdm==4.62.3

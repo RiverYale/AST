@@ -1,0 +1,42 @@
+seed: 42
+root: /home/user/University-Release
+evaluate: false
+
+drone_h: 256
+drone_w: 256
+sate_h: 256
+sate_w: 256
+pad: 0
+erasing_p: 0
+color_jitter: false
+DA: false
+num_worker: 4
+
+checkpoint: null
+only_state: true
+checkpoint_freq: 0
+print_freq: 50
+
+save_path: /home/user/outputs
+save_log: true
+
+share_weight: true
+sample_num: 8
+test_batch_size: 256
+batch_size: 8
+lr: 0.01
+lr_tscale: 0.4
+optim: sgd
+momentum: 0.9
+weight_decay: 0.0005
+steps:
+  - 7
+  - 17
+ft_dim: 512
+alpha: 20
+
+num_epochs: 20
+enable_amp: true
+warm_epoch: 0
+
+part_num: 3
